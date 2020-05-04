@@ -8,6 +8,7 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com.ua/");
+
         Thread.sleep(200000);
         driver.quit();
     }
